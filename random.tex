@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{sagetex}
+
+
+\begin{document}
+
+
+
+\begin{sagesilent}
+set_random_seed(int(open('num.txt').read()))
+r1 = randint(0,100)
+name = str(open('name.txt').read())
+\end{sagesilent}
+
+name: \sage{name}
+
+\sage{r1}
+
+\end{document}
